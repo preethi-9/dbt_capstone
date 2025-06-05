@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw                     # schema name
+    database: DBT_CAPSTONE        # optional if default
+    schema: IPL_DATA       # schema where the table is
+    tables:
+      - name: IPL_RAW_DATA        # table name in Snowflake
